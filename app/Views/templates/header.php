@@ -10,6 +10,18 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
 	<style>
+        .panel-footer{
+            color: #E5CECE;
+            text-align:center;
+            background: #9D4141;
+            border-top: none;
+            
+            font-family: 'Nunito', sans-serif;
+            font-size: 18px;
+        }
+        .footer-container-sm{
+            width: 150px;
+        }
         .home-body{
             background-color:#9D4141;
             margin:0;
@@ -68,18 +80,6 @@
             font-family: 'Nunito', sans-serif;
             font-size: 24px;
             font-weight: 900;
-        }
-        .panel-footer{
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            color: #E5CECE;
-            text-align:center;
-            background: #9D4141;
-            border-top: none;
-            
-            font-family: 'Nunito', sans-serif;
-            font-size: 18px;
         }
 	</style>
 	</head>
