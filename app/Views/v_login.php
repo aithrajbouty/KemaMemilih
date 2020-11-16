@@ -10,19 +10,17 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
 	<style>
-		html, body{
+		.login-body{
 			height: 100%;
+			background: rgb(157,65,65);
 		}
-		body{
-		background: rgb(157,65,65);
-		}
-		.cont-login{
+		.login-cont{
 			height: 100%;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 		}
-		.jumb-login{
+		.login-jumb{
 			background: rgb(229,206,206);
 			width: 612px;
 			height: 395px;
@@ -33,7 +31,7 @@
 			font-size: 36px;
 			color: #452E2E;
 		}
-		.text{
+		.login-text{
 			font-family: 'Nunito', sans-serif;
 			font-style: normal;
 			font-weight: 900;
@@ -60,7 +58,6 @@
 			line-height: 25px;
 			color: #E5CECE;
 		}
-		div.parentElement{text-align: center;}
 
 		.btn-work {
 			width: 150px;
@@ -79,17 +76,17 @@
 	</style>
 	</head>
 	
-	<body>
-	<div class="container cont-login">
-	<div class="jumbotron jumbotron-fluid jumb-login">
+	<body class="login-body">
+	<div class="container login-cont">
+	<div class="jumbotron jumbotron-fluid login-jumb">
 		<h1>Login</h1>
 		<form action="/action_page.php">
 			<div class="form-group">
-				<label for="npm" class="text">NPM:</label>
+				<label for="npm" class="login-text">NPM:</label>
 				<input type="npm" class="form-control form-input" id="npm" placeholder="Masukkan NPM Anda" name="npm">
 			</div>
 			<div class="form-group">
-				<label for="password" class="text">Password:</label>
+				<label for="password" class="login-text">Password:</label>
 				<input type="password" class="form-control form-input" id="password" placeholder="Masukkan password Anda" name="pswd">
 			</div>
 			<button type="submit" class="btn masuk-btn float-right" onClick="window.location.href = '<?php echo base_url();?>login/index';return false;">Masuk</button>

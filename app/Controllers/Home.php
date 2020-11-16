@@ -4,7 +4,12 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('v_home');
+		$data = [
+			'title' => 'Homepage - Kema Memilih'
+		];
+		echo view('templates/header', $data);
+		echo view('v_home');
+		echo view('templates/footer');
 	}
 
 	//--------------------------------------------------------------------
