@@ -92,7 +92,7 @@
 				<label for="password" class="text">Password:</label>
 				<input type="password" class="form-control form-input" id="password" placeholder="Masukkan password Anda" name="pswd">
 			</div>
-			<button type="submit" class="btn masuk-btn float-right" onClick="window.location.href = '<?php echo base_url();?>login/index';return false;">Masuk</button>
+			<button class="btn masuk-btn float-right" onclick="window.location.href ='Dashboard/index'">Masuk</button>
 		</form>
 	</div>
 	
