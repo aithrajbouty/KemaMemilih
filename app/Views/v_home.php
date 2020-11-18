@@ -40,7 +40,7 @@
                 <p>Kamu Kema Unpad?</p>
             </div>
             <div class="col-sm-6 text-right">
-                <button class="btn home-btn" onclick="location.href='Login/index'">Login Disini</button>
+                <button class="btn home-btn" onclick="location.href='login/index'">Login Disini</button>
             </div>
         </div> 
     </div>

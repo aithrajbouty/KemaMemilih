@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Login - Kema Memilih</title>
+		<title>Main Page</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -73,31 +73,14 @@
 			background: #FFFFFF;
 			border-radius: 15px;
 		}
-		.alert{
-			margin-top: 30px;
-		}
 	</style>
 	</head>
-	<form method="POST" action="<?php echo base_url('Login/login_action');?>">
 	<body class="login-body">
 	<div class="container login-cont">
 	<div class="jumbotron jumbotron-fluid login-jumb">
-		<h1>Login</h1>
-			<div class="form-group">
-				<label for="npm" class="login-text">NPM:</label>
-				<input type="text" class="form-control form-input" id="npm" placeholder="Masukkan NPM Anda" name="npm" required>
-			</div>
-			<div class="form-group">
-				<label for="password" class="login-text">Password:</label>
-				<input type="password" class="form-control form-input" id="password" placeholder="Masukkan password Anda" name="password" required>
-			</div>
-			<button type="submit" class="btn masuk-btn float-right">Masuk</button>
-	</form>
-	<?php if(!empty(session()->getFlashdata('gagal'))) { ?>
-	<div class="alert alert-warning">
-		<?php echo session()->getFlashdata('gagal'); ?>
-	</div>
-	<?php } ?>
+		<h1>Logout</h1>
+		<a class="btn btn-primary btn-lg" href="<?php echo base_url('Login/logout'); ?>" role="button">Logout</a>
+</form>
 	</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
