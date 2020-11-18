@@ -30,6 +30,8 @@
         .card{
             padding:10%;
             border-radius:30px;
+            margin-right:10px;
+            margin-left:5px;
         }
         .container p{
             color: #FFFFFF;
@@ -47,6 +49,7 @@
             font-family: 'Nunito', sans-serif;
             font-size: 24px;
             font-weight: 900;
+            margin-top:30px;
         }
         .img{
             position: absolute;
@@ -55,6 +58,7 @@
             left: 239px;
             top: 329px; 
         }
+
 	</style>
 	</head>
 	
