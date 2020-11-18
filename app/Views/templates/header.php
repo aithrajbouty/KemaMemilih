@@ -10,6 +10,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
 	<style>
+    /*FOOTER*/
         .panel-footer{
             color: #E5CECE;
             text-align:center;
@@ -22,6 +23,7 @@
         .footer-container-sm{
             width: 150px;
         }
+    /*HOME*/
         .home-body{
             background-color:#9D4141;
             margin:0;
@@ -81,5 +83,49 @@
             font-size: 24px;
             font-weight: 900;
         }
+    /*MAINPAGE*/
+        .main-body{
+            background-color:#9D4141;
+            margin:0;
+            padding:0;
+        }
+        .main-jumbotron{
+            margin:100px;
+            padding:0px;
+            border-radius:1px;
+            background: #9D4141;
+        }
+        .main-card{
+            padding:10%;
+            border-radius:30px;
+            margin-right:10px;
+            margin-left:5px;
+        }
+        .main-container p{
+            color: #FFFFFF;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+            font-size: 36px
+        }
+        .main-btn{
+            width: 285px;
+            height: 63px;
+            color: #452E2E;
+            background: #FFFFFF;
+            border-radius: 50px;
+
+            font-family: 'Nunito', sans-serif;
+            font-size: 24px;
+            font-weight: 900;
+            margin-top:30px;
+        }
+        /* aku kalo pake ini malah berantakan
+        .main-container img{
+            position: absolute;
+            width: 251px;
+            height: 347px;
+            left: 239px;
+            top: 329px; 
+        }*/
 	</style>
 	</head>
