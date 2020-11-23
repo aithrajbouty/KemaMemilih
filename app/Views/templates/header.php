@@ -127,5 +127,63 @@
             left: 239px;
             top: 329px; 
         }*/
+    /*NAVBAR ALL*/
+        .navbar-nav.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+        .navbar {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+        .glyphicon {
+            font-size: 23px;
+        }
+    /*NAVBAR1*/
+        .navbar1{
+            background: #E6CECE;
+            height: 51px;
+            padding:0px;
+            margin:0;
+        }
+        .navbar1 a{
+            font-family: 'Nunito', sans-serif;
+            color: #452E2E;
+            letter-spacing: 0.05em;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 900;
+        }
+        .navbar1 ul li a:hover{
+            background: #F2E6E6;
+            transition:0.4s;
+            display: block;
+        }
+    /*NAVBAR2*/
+        .navbar2{
+            background: #452E2E;
+            padding:0px;
+            margin:0;
+        }
+        .navbar2 a{
+            font-family: 'Nunito', sans-serif;
+            color: #E6CECE;
+            letter-spacing: 0.05em;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 900;
+            text-align: center;
+            width: 705px;
+        }
+        .navbar2 .active{
+            background: #5C4444;
+        }
+        .navbar2 ul li a:hover{
+            background: #5C4444;
+            transition:0.4s;
+            display: block;
+        }
 	</style>
 	</head>

@@ -6,7 +6,6 @@
     <li data-target="#theCarousel" data-slide-to="1"></li>
     <li data-target="#theCarousel" data-slide-to="2"></li>
     </ol>
-
     <div class="carousel-inner text-center">
         <div class="item active">
             <div class="slide1"></div>
@@ -23,11 +22,9 @@
             <div class="slide3"></div>
         </div>
     </div>
-
     <a class="left carousel-control" href="#theCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
-
     <a class="right carousel-control" href="#theCarousel" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
@@ -45,4 +42,3 @@
         </div> 
     </div>
 </div>
-
