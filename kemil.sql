@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 16, 2020 at 04:46 PM
+-- Generation Time: Nov 23, 2020 at 04:24 PM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -39,13 +39,6 @@ CREATE TABLE `paslon_fakultas` (
   `npm` varchar(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `paslon_fakultas`
---
-
-INSERT INTO `paslon_fakultas` (`kd_paslonFak`, `nourut_fak`, `foto_ketuaFak`, `foto_wakilFak`, `poster_fak`, `capt_fak`, `status_fak`, `npm`) VALUES
-('FMIPA01', 1, '', '', '', '', '1', '140810180052');
-
 -- --------------------------------------------------------
 
 --
@@ -63,13 +56,6 @@ CREATE TABLE `paslon_univ` (
   `npm` varchar(12) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `paslon_univ`
---
-
-INSERT INTO `paslon_univ` (`kd_paslonUniv`, `nourut_univ`, `foto_ketuaUniv`, `foto_wakilUniv`, `poster_univ`, `capt_univ`, `status_univ`, `npm`) VALUES
-('UNIV01', 1, '', '', '', '', '1', '140810180053');
-
 -- --------------------------------------------------------
 
 --
@@ -78,7 +64,7 @@ INSERT INTO `paslon_univ` (`kd_paslonUniv`, `nourut_univ`, `foto_ketuaUniv`, `fo
 
 CREATE TABLE `user` (
   `npm` varchar(12) NOT NULL,
-  `userPass` varchar(40) NOT NULL,
+  `password` varchar(40) NOT NULL,
   `email` varchar(255) NOT NULL,
   `nama` varchar(255) NOT NULL,
   `fakultas` varchar(255) NOT NULL,
@@ -92,9 +78,9 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`npm`, `userPass`, `email`, `nama`, `fakultas`, `prodi`, `fotoUser`, `role`, `statusUser`) VALUES
-('140810180052', '827ccb0eea8a706c4c34a16891f84e7b', 'shalvinazahwa@gmail.com', 'Shalvina', 'FMIPA', 'Teknik Informatika', NULL, 'pemilih', '1'),
-('140810180053', 'e10adc3949ba59abbe56e057f20f883e', '123456@gmail.com', 'Paslon 2', 'FISIP', 'Ilmu Pemerintahan', NULL, 'pemilih', '1');
+INSERT INTO `user` (`npm`, `password`, `email`, `nama`, `fakultas`, `prodi`, `fotoUser`, `role`, `statusUser`) VALUES
+('140810180051', '01cfcd4f6b8770febfb40cb906715822', 'user2@gmailcom', 'user2', 'FISIP', 'Ilmu Pemerintahan', NULL, 'pemilih', '1'),
+('140810180052', '12345', 'shalvinazahwa@gmail.com', 'Shalvina', 'FMIPA', 'TI', NULL, 'pemilih', '1');
 
 -- --------------------------------------------------------
 
