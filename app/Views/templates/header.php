@@ -155,11 +155,11 @@
             font-size: 18px;
             line-height: 25px;
             font-weight: 900;
-        }
-        .navbar1 ul li a:hover{
-            background: #F2E6E6;
-            transition:0.4s;
-            display: block;
+            
+            width: 33.33%;
+            
+            float: left;
+            padding: 12px;
         }
     /*NAVBAR2*/
         .navbar2{
@@ -175,13 +175,16 @@
             line-height: 25px;
             font-weight: 900;
             text-align: center;
-            width: 705px;
+            width: 50%;
+            
+            float: left;
+            padding: 12px;
         }
         .navbar2 .active{
             background: #5C4444;
         }
-        .navbar2 ul li a:hover{
-            background: #5C4444;
+        .navbar2 a:hover{
+            background: #886666;
             transition:0.4s;
             display: block;
         }
