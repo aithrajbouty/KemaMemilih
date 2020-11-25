@@ -33,11 +33,13 @@
             margin-bottom:0;
         }
         .slide1{
-            background-image: url('');
+            background-image: url("");
             height: 500px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            padding-top:87px;
+            padding-bottom:87px;
         }
         .slide2{
             background-image: url('');
@@ -57,7 +59,7 @@
             font-size: 70px;
             font-family: 'Nunito', sans-serif;
             font-weight: 900;
-            padding-bottom: 2em;
+            padding-bottom: 2.5em;
             color: #E5CECE;  
         }
         .cont-bawah{

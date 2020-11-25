@@ -8,7 +8,9 @@
     </ol>
     <div class="carousel-inner text-center">
         <div class="item active">
-            <div class="slide1"></div>
+            <div class="slide1">
+            <img src="<?= base_url('assets')?> /homebg.png" width=545px height=370px left=434px>
+            </div>
             <div>
                 <h1 class="carousel-caption">Kema Memilih</h1>
             </div>
