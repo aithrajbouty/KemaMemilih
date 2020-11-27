@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-sm-12 text-center">
-                <button class="main-btn" onclick="location.href='Login/index'">Pilih Sekarang</button>
+                <button class="main-btn" onclick="location.href='VoteUniv/index'">Pilih Sekarang</button>
             </div>
         </div> 
     </div>

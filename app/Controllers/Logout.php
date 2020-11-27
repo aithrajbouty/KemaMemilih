@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
 use CodeIgniter\Controller;
 
-class Mainpage extends BaseController
+class Logout extends BaseController
 {
 	public function index()
 	{

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title><?= $title ?></title>
@@ -146,8 +147,6 @@
     /*NAVBAR1*/
         .navbar1{
             background: #E6CECE;
-            height: 51px;
-            padding:0px;
             margin:0;
         }
         .navbar1 a{
@@ -158,10 +157,27 @@
             line-height: 25px;
             font-weight: 900;
             
-            width: 33.33%;
-            
             float: left;
             padding: 12px;
+        }
+        .navbar1 .dropdown-menu a{
+            font-family: 'Nunito', sans-serif;
+            font-size: 14px;
+            line-height: 19px;
+            align-items: center;
+            text-align: center;
+            color: #452E2E;
+        }
+        .navbar-brand
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            margin:0 auto;
+        }
+        .navbar-toggle {
+            z-index:3;
         }
     /*NAVBAR2*/
         .navbar2{
@@ -190,5 +206,63 @@
             transition:0.4s;
             display: block;
         }
+    /*VOTE*/
+        .vote-body{
+            background-color:#9D4141;
+        }
+        .vote-jumb{
+            background-color:#9D4141;
+        }
+        .vote-jumb h1{
+            font-size: 48px;
+            color: #E5CECE;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+        .vote-card{
+            text-align: center;
+            background: #E5CECE;
+            border-radius: 50px;
+            padding: 45px;
+
+            font-size: 36px;
+            color: #452E2E;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+    /*VOTE UNIV*/
+        .voteU-img{
+            width: 427px;
+        }
+        .voteU-btn{
+            background: #452E2E;
+            border-radius: 20px;
+            width: 335px;
+            height: 59px;
+
+            text-align: center;
+            color: #E5CECE;
+            font-size: 24px;
+            line-height: 33px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+        .voteF-img{
+            width: 362px;
+        }
+        .voteF-btn{
+            background: #452E2E;
+            border-radius: 20px;
+            width: 284px;
+            height: 50px;
+
+            text-align: center;
+            color: #E5CECE;
+            font-size: 24px;
+            line-height: 33px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+    /*VOTE FAKULTAS*/
 	</style>
 	</head>
