@@ -290,5 +290,35 @@
         font-weight: 900;
     }
 
+    /*PROFILE*/
+    .profile-card{
+        text-align: left;
+        background: #E5CECE;
+        border-radius: 50px;
+        padding: 45px;
+
+        font-size: 18px;
+        color: #9D4141;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+    }
+    .img-profile{
+        position: center;
+    }
+    .ubahpass-btn{
+            background: #9D4141;
+            border-radius: 20px;
+            width: 300px;
+            height: 40px;
+
+            text-align: center;
+            color: #E5CECE;
+            font-size: 15px;
+            line-height: 33px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+            position: center;
+        }
+
 	</style>
 	</head>
