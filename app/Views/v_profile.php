@@ -38,14 +38,14 @@
                                 <div class="form-group has-feedback">
                                     <label class="col-sm-2 control-label" for="pw">Password</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="pw">
+                                        <input type="password" class="form-control" id="pw" placeholder="Masukkan password lama....">
                                         <span class="form-control-feedback"></span>
                                     </div>
                                 </div>
                                 <div class="form-group has-feedback">
                                     <label class="col-sm-2 control-label" for="newpw">New Password</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="newpw">
+                                        <input type="password" class="form-control" id="newpw" placeholder="Masukkan password baru....">
                                         <span class="form-control-feedback"></span>
                                     </div>
                                 </div>
