@@ -264,5 +264,31 @@
             font-weight: 900;
         }
     /*VOTE FAKULTAS*/
+    /*MAINPAGE UNIV*/
+    .mainuniv-card{
+        text-align: center;
+        background: #E5CECE;
+        border-radius: 50px;
+        padding: 45px;
+
+        font-size: 18px;
+        color: #452E2E;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+    }
+
+    /*MAINPAGE FAKULTAS*/
+    .mainfak-card{
+        text-align: center;
+        background: #E5CECE;
+        border-radius: 50px;
+        padding: 45px;
+
+        font-size: 18px;
+        color: #452E2E;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+    }
+
 	</style>
 	</head>
