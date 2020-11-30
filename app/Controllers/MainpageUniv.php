@@ -5,7 +5,7 @@ class MainpageUniv extends BaseController
 	public function index()
 	{
 		$data = [
-			'title' => 'Mainpage - Kema Memilih',
+			'title' => 'Mainpage Universitas - Kema Memilih',
 			'page' => 'mainpage'
 		];
 		echo view('templates/header', $data);

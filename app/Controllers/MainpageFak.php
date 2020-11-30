@@ -6,7 +6,7 @@ class MainpageFak extends BaseController
 	{
 		$data = [
 			'title' => 'Mainpage Fakultas - Kema Memilih',
-			'page' => 'mainpage'
+			'page' => 'fakultas'
 		];
 		echo view('templates/header', $data);
 		echo view('templates/navbar1');

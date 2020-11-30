@@ -1,6 +1,6 @@
 <body>
 <nav class="navbar navbar1" role="navigation">
-    <a class="navbar-brand" href="<?= base_url('Mainpage')?>" style="text-align: center">Kema Memilih</a>
+    <a class="navbar-brand" href="<?= base_url('MainpageUniv')?>" style="text-align: center">Kema Memilih</a>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
             <li><a href="#" ><span class="glyphicon glyphicon-arrow-left"></span></a></li>

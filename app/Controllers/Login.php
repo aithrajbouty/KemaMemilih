@@ -24,7 +24,7 @@ class Login extends BaseController
 			session()->set('npm',$cek['npm']);
 			session()->set('nama',$cek['nama']);
 			session()->set('role',$cek['role']);
-			return redirect()->to(base_url('Mainpage'));
+			return redirect()->to(base_url('MainpageUniv'));
 		}else{
 			session()->setFlashdata('gagal','NPM atau Password Salah!');
 			return redirect()->to(base_url('Login'));
