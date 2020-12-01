@@ -319,6 +319,56 @@
             font-weight: 900;
             position: center;
         }
+    
+    /*STATISTIKA*/
+    .statistik-card{
+        text-align: center;
+        background: #E5CECE;
+        border-radius: 50px;
+        padding: 45px;
 
+        font-size: 30px;
+        color: #452E2E;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+    }
+    .disclaimer-card{
+        text-align: center;
+        background: #E5CECE;
+        border-radius: 50px;
+        padding: 45px;
+        padding-top: 15px;
+
+        font-size: 16px;
+        color: #452E2E;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+        line-height: 22px;
+    }
+    
 	</style>
-	</head>
+    <script>
+        window.onload = function() {
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            title: {
+                text: "Desktop Search Engine Market Share - 2016"
+            },
+            data: [{
+                type: "pie",
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    {y: 79.45, label: "Google"},
+                    {y: 7.31, label: "Bing"},
+                    {y: 7.06, label: "Baidu"},
+                    {y: 4.91, label: "Yahoo"},
+                    {y: 1.26, label: "Others"}
+                ]
+            }]
+        });
+        chart.render();
+        }
+    </script>
+</head>
