@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="card vote-card" style="background-color:#E5CECE;">
-                            <img src="<?= base_url('assets')?> /1.png" class="card-img-top">
+                            <img src="<?= base_url('assets')?> /1.png" width="100" height="100" class="card-img-top">
                             <br><br>
                             <img src="<?= base_url('assets')?> /calon.png" width="380" height="280" class="card-img-top">
                             <br><br>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="card vote-card" style="background-color:#E5CECE;">
-                            <img src="<?= base_url('assets')?> /2.png" class="card-img-top">
+                            <img src="<?= base_url('assets')?> /2.png" width="100" height="100" class="card-img-top">
                             <br><br>
                             <img src="<?= base_url('assets')?> /calon.png" width="380" height="280" class="card-img-top">
                             <br><br>
@@ -37,7 +37,7 @@
 
 <div class="container">
     <div class="card vote-card" style="background-color:#FFFFFF;">
-        <img src="<?= base_url('assets')?> /1.png" class="card-img-top">
+        <img src="<?= base_url('assets')?> /1.png" width="100" height="100" class="card-img-top">
         Imam Syahid dan Awaldi Rahman
         &ensp;
         <div class="card-body">
@@ -64,7 +64,7 @@
 <br><br><br>
 <div class="container">
     <div class="card vote-card" style="background-color:#FFFFFF;">
-        <img src="<?= base_url('assets')?> /2.png" class="card-img-top">
+        <img src="<?= base_url('assets')?> /2.png" width="100" height="100" class="card-img-top">
         Imam Syahid dan Awaldi Rahman
         &ensp;
         <div class="card-body">
