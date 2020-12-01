@@ -11,7 +11,7 @@
                 <br><br>
                 <img src="<?= base_url('assets')?> /calon.png" class="card-img-top voteF-img">
                 <br><br>
-                <button class="btn voteF-btn">Pilih</button>
+                <button class="btn voteF-btn" data-toggle="modal" data-target="#modalYakin">Pilih</button>
             </div>
         </div>
         <div class="col-sm-4">
@@ -20,7 +20,7 @@
                 <br><br>
                 <img src="<?= base_url('assets')?> /calon.png" class="card-img-top voteF-img">
                 <br><br>
-                <button class="btn voteF-btn">Pilih</button>
+                <button class="btn voteF-btn" data-toggle="modal" data-target="#modalYakin">Pilih</button>
             </div>
         </div>
         <div class="col-sm-4">
@@ -29,10 +29,29 @@
                 <br><br>
                 <img src="<?= base_url('assets')?> /calon.png" class="card-img-top voteF-img">
                 <br><br>
-                <button class="btn voteF-btn">Pilih</button>
+                <button class="btn voteF-btn" data-toggle="modal" data-target="#modalYakin">Pilih</button>
             </div>
         </div>
     </div>
+
+
+    <!--MODAL-->
+    <div class="modal fade" id="modalYakin" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" align="center">
+                    <button typle="button" class="close" data-dismiss="modal">&times;</button>
+                    <br><br>
+                    <p class="modal-title">Apakah anda yakin dengan pilihan Anda?</p>
+                    <br>
+                    <button type="button" class="btn modal-btn" data-dismiss="modal">Yakin</button>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <br><br><br>
 </div>
 </body>

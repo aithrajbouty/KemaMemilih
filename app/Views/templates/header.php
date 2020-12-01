@@ -247,6 +247,7 @@
             font-family: 'Nunito', sans-serif;
             font-weight: 900;
         }
+    /*VOTE FAKULTAS*/
         .voteF-img{
             width: 362px;
         }
@@ -263,88 +264,131 @@
             font-family: 'Nunito', sans-serif;
             font-weight: 900;
         }
-    /*VOTE FAKULTAS*/
     /*MAINPAGE UNIV*/
-    .mainuniv-card{
-        text-align: center;
-        background: #E5CECE;
-        border-radius: 50px;
-        padding: 45px;
-
-        font-size: 18px;
-        color: #452E2E;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
-    }
-
-    /*MAINPAGE FAKULTAS*/
-    .mainfak-card{
-        text-align: center;
-        background: #E5CECE;
-        border-radius: 50px;
-        padding: 45px;
-
-        font-size: 18px;
-        color: #452E2E;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
-    }
-
-    /*PROFILE*/
-    .profile-card{
-        text-align: left;
-        background: #E5CECE;
-        border-radius: 50px;
-        padding: 45px;
-
-        font-size: 18px;
-        color: #9D4141;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
-    }
-    .img-profile{
-        position: center;
-    }
-    .ubahpass-btn{
-            background: #9D4141;
-            border-radius: 20px;
-            width: 300px;
-            height: 40px;
-
+        .mainuniv-card{
             text-align: center;
-            color: #E5CECE;
-            font-size: 15px;
-            line-height: 33px;
+            background: #E5CECE;
+            border-radius: 50px;
+            padding: 45px;
+
+            font-size: 18px;
+            color: #452E2E;
             font-family: 'Nunito', sans-serif;
             font-weight: 900;
+        }
+
+    /*MAINPAGE FAKULTAS*/
+        .mainfak-card{
+            text-align: center;
+            background: #E5CECE;
+            border-radius: 50px;
+            padding: 45px;
+
+            font-size: 18px;
+            color: #452E2E;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+
+        /*PROFILE*/
+        .profile-card{
+            text-align: left;
+            background: #E5CECE;
+            border-radius: 50px;
+            padding: 45px;
+
+            font-size: 18px;
+            color: #9D4141;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+        .img-profile{
             position: center;
         }
-    
+        .ubahpass-btn{
+                background: #9D4141;
+                border-radius: 20px;
+                width: 300px;
+                height: 40px;
+
+                text-align: center;
+                color: #E5CECE;
+                font-size: 15px;
+                line-height: 33px;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 900;
+                position: center;
+            }
+        
     /*STATISTIKA*/
-    .statistik-card{
-        text-align: center;
-        background: #E5CECE;
-        border-radius: 50px;
-        padding: 45px;
+        .statistik-card{
+            text-align: center;
+            background: #E5CECE;
+            border-radius: 50px;
+            padding: 45px;
 
-        font-size: 30px;
-        color: #452E2E;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
-    }
-    .disclaimer-card{
-        text-align: center;
-        background: #E5CECE;
-        border-radius: 50px;
-        padding: 45px;
-        padding-top: 15px;
+            font-size: 30px;
+            color: #452E2E;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+        }
+        .disclaimer-card{
+            text-align: center;
+            background: #E5CECE;
+            border-radius: 50px;
+            padding: 45px;
+            padding-top: 15px;
 
-        font-size: 16px;
-        color: #452E2E;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
-        line-height: 22px;
-    }
+            font-size: 16px;
+            color: #452E2E;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 900;
+            line-height: 22px;
+        }
+    /*MODAL*/
+        .modal {
+            text-align: center;
+        }
+        .modal-dialog{
+            width: 500px;
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+        }
+        .modal-dialog p{
+            width: 385px;
+            height: 41px;
+            text-align: center;
+
+            font-family: 'Nunito', sans-serif;
+            font-size: 18px;
+            line-height: 25px;
+            color: #452E2E;
+        }
+        .modal-content  {
+            -webkit-border-radius: 20px !important;
+            -moz-border-radius: 20px !important;
+            border-radius: 20px !important; 
+        }
+        .modal-btn{
+            width: 284px;
+            height: 50px;
+            background: #452E2E;
+            border-radius: 20px;
+
+            font-family: 'Nunito', sans-serif;
+            font-size: 24px;
+            line-height: 33px;
+            color: #E5CECE;
+        }
+        @media screen and (min-width: 768px) { 
+            .modal:before {
+                display: inline-block;
+                vertical-align: middle;
+                content: " ";
+                height: 100%;
+            }
+        }
     
 	</style>
     <script>
