@@ -389,6 +389,69 @@
                 height: 100%;
             }
         }
+        /*ADMIN*/
+    .admin-jumb{
+        background: #E5CECE;
+        border-radius: 50px;
+        padding: 45px;
+
+        color: #452E2E;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+
+        background-color:#FFFFFF; 
+        margin-top:60px;
+    }
+    .txt-admin{
+        font-family: Nunito;
+        font-size: 48px;
+        line-heigth: 65px;
+        margin-top: 55px;
+        color:  #E5CECE;
+        text-align: center;
+    }
+    .txt-kdpaslon{
+        font-family: Nunito;
+        font-size: 24px;
+        line-heigth: 65px;
+        color:  #E5CECE;
+        text-align: left;
+        position : center;
+    }
+    .btn-kdpaslon{
+            background: #FFFFFF;
+            width: 117px;
+            height: 27px;
+            
+    }
+    .caret{
+        color : #9D4141;
+        margin-left : 85px;
+    }
+    .dropdown-menu{
+        margin-left : 320px;
+    }
+    .table-head{
+        font-size: 40px;
+        color:#585F66;
+        text-align: center;
+    }
+    .table-body{
+        font-size: 30px;
+        color:#585F66;
+        text-align:center;
+    }
+    .btn-admin{
+        width: 285px;
+        height: 63px;
+        color: #452E2E;
+        background: #FFFFFF;
+        border-radius: 50px;
+
+        font-family: 'Nunito', sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+    }
     
 	</style>
     <script>

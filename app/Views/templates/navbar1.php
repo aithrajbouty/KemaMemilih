@@ -8,7 +8,7 @@
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown"><a href="#" data-toggle="dropdown"><span class="dropdown-toggle glyphicon glyphicon-user"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a>Administrator</a></li>
+                    <li><a href="<?= base_url('AdminUniv')?>">Administrator</a></li>
                     <li><a href="<?= base_url('Profile')?>">Halaman Profil</a></li>
                     <li><a href="<?php echo base_url('Login/logout'); ?>">Logout</a></li>
                 </ul>
