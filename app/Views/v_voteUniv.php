@@ -33,7 +33,7 @@
                 <div class="modal-header" align="center">
                     <button typle="button" class="close" data-dismiss="modal">&times;</button>
                     <br><br>
-                    <p class="modal-title">Apakah anda yakin dengan pilihan Anda?</p>
+                    <p class="modal-title">Apakah Anda yakin dengan pilihan Anda?</p>
                     <br>
                     <button type="button" class="btn modal-btn" data-dismiss="modal">Yakin</button>
                     <br><br>
