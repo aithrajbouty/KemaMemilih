@@ -8,6 +8,7 @@
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown"><a href="#" data-toggle="dropdown"><span class="dropdown-toggle glyphicon glyphicon-user"></span></a>
                 <ul class="dropdown-menu">
+                    <li><a href="<?= base_url('AdminFak')?>">Admin</a></li>
                     <li><a href="<?= base_url('Profile')?>">Halaman Profil</a></li>
                     <li><a data-toggle="modal" data-target="#modalLogOut">Logout</a></li>
                 </ul>
@@ -24,7 +25,7 @@
                 <div class="modal-header" align="center">
                     <button typle="button" class="close" data-dismiss="modal">&times;</button>
                     <br><br>
-                    <p class="modal-title">Apakah Snda yakin ingin log out?</p>
+                    <p class="modal-title">Apakah Anda yakin ingin log out?</p>
                     <br>
                     <a href="<?php echo base_url('Login/logout'); ?>" type="button" class="btn modal-btn">Ok</a>
                     <br><br>

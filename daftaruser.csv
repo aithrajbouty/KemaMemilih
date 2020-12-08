@@ -1,0 +1,4 @@
+npm;password;email;nama;prodi;fotoUser;role;statusUser;id_fakultas
+111;111;1a@mail.com;aaa;Teknik Informatika;;adminUniv;0;13
+222;222;2b@mail.com;bbb;Matematika;;pemilih;0;13
+333;333;3c@mail.com;ccc;Ilmu perpustakaan;;pemilih;0;20
